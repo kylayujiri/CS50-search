@@ -1,5 +1,5 @@
 # CS50w Project 0: Search
-Project 0 for the Web Programming with Javascript and Python course I audited through Harvard's edX.
+My Project 0 for the Web Programming with Javascript and Python course I audited through Harvard's edX.
 
 [Project 0 Specifications](https://cs50.harvard.edu/web/2020/projects/0/search/)
 
