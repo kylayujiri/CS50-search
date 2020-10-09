@@ -15,24 +15,37 @@
   <p id="adv-title">Advanced Search</p>
   <hr>
 
-  <div class="search advanced" style="text-align: left">
+  <div class="search advanced">
     Find pages with...
     <br><br>
-    <form action="https://google.com/search" autocomplete="off">
-      <label for="all">all these words</label>
-      <input type="text" name="as_q" id="all">
-      <br>
-      <label for="exact">this exact word or phrase</label>
-      <input type="text" name="as_epq" id="exact">
-      <br>
-      <label for="any">any of these words</label>
-      <input type="text" name="as_oq" id="any">
-      <br>
-      <label for="none">none of these words</label>
-      <input type="text" name="as_eq" id="none">
-      <br>
-      <input type="submit" value="Advanced Search" id="adv-submit">
+    <form action="https://google.com/search" autocomplete="off" id="adv-form">
+      <div style="display: table-column;"></div>
+      <div style="display: table-column; width:100%;"></div>
+
+      <p class="adv-p">
+        <label for="all" class="adv-label">all these words</label>
+        <input type="text" name="as_q" class="adv-input" id="all">
+      </p>
+
+      <p class="adv-p">
+        <label for="exact" class="adv-label">this exact word or phrase</label>
+        <input type="text" name="as_epq" class="adv-input" id="exact">
+      </p>
+
+      <p class="adv-p">
+        <label for="any" class="adv-label">any of these words</label>
+        <input type="text" name="as_oq" class="adv-input" id="any">
+      </p>
+
+      <p class="adv-p">
+      <label for="none" class="adv-label">none of these words</label>
+      <input type="text" name="as_eq" class="adv-input" id="none">
+      </p>
+
     </form>
+
+    <input type="submit" value="Advanced Search" form="adv-form" id="adv-submit">
+
   </div>
 
 </body>

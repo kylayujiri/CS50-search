@@ -18,6 +18,23 @@ hr {
 
 }
 
+#adv-form {
+  display: table;
+}
+
+.adv-p {
+  display: table-row;
+}
+
+.adv-label {
+  display: table-cell;
+  white-space: nowrap;
+}
+
+.adv-input {
+  display: table-cell;
+}
+
 .navbar {
 
   text-align: right;
@@ -93,10 +110,13 @@ hr {
 
   margin: 40px;
 
+  text-align: left;
+
 }
 
 .advanced input[type="text"] {
 
+  width: 100%;
   border-radius: 3px;
 
 }
