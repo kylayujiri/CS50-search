@@ -11,21 +11,25 @@
     <a href="index.html">Google Search</a>
   </div>
 
+  <hr>
+  <p id="adv-title">Advanced Search</p>
+  <hr>
+
   <div class="search advanced" style="text-align: left">
     Find pages with...
     <br><br>
     <form action="https://google.com/search" autocomplete="off">
-      all these words
-      <input type="text" name="as_q">
+      <label for="all">all these words</label>
+      <input type="text" name="as_q" id="all">
       <br>
-      this exact word or phrase
-      <input type="text" name="as_epq">
+      <label for="exact">this exact word or phrase</label>
+      <input type="text" name="as_epq" id="exact">
       <br>
-      any of these words
-      <input type="text" name="as_oq">
+      <label for="any">any of these words</label>
+      <input type="text" name="as_oq" id="any">
       <br>
-      none of these words
-      <input type="text" name="as_eq">
+      <label for="none">none of these words</label>
+      <input type="text" name="as_eq" id="none">
       <br>
       <input type="submit" value="Advanced Search" id="adv-submit">
     </form>
